@@ -6,11 +6,8 @@ const int buttonPin = 2;    // Pin for the push button
 int buttonState = 0;        // Variable for reading the pushbutton status
 
 void setup() {
-  // Initialize the LED pin as an output
-  pinMode(ledPin, OUTPUT);
-
-  // Initialize the pushbutton pin as an input
-  pinMode(buttonPin, INPUT);
+  pinMode(ledPin, OUTPUT);   // Initialize the LED pin as an output
+  pinMode(buttonPin, INPUT);   // Initialize the pushbutton pin as an input
 }
 
 void loop() {
